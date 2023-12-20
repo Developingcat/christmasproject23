@@ -1,0 +1,94 @@
+/* CSS Document */
+
+/* Name: Hannah O'Shea
+Date: 12/19/2023
+File Name: styles3NEW.css */
+
+
+/* Font Families; 
+Rubik Doodle Shadow 
+Francis One 
+Roboto Slab */
+
+ @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100;200;400;900&family=Rubik+Doodle+Shadow&display=swap');
+
+/*CSS Reset */
+body, header, nav, main, footer, img, h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+/*Style Rules for Homepage*/
+
+
+body {
+	background-color: #89A8DE;
+}
+
+img{
+	max-width:100%;
+	display: block;
+}
+
+#hero{
+	position: relative;
+	top: -400px;
+	max-height: 400px;
+}
+/* Header rules */ 
+
+header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #446493;
+	color: #1F2643;
+	height:110px;
+	font-family: "Rubik Doodle Shadow", "Roboto Slab", sans-serif;
+	border-bottom: thick #1E1836;
+	border-radius: 15px 15px 15px 15px;
+}
+
+header h2 {
+	text-align: center;
+	font-size: 5.7em;
+	text-decoration: underline;
+	text-decoration-color:#1F2643;
+}
+
+
+/* Nav styles */
+nav li:hover {
+	color:#B1C3E7;
+	background-color:#7783D5;
+	text-decoration-color: #151221;
+	text-decoration: line-through;
+}
+nav {
+	color:#18172F;
+	text-decoration: none; 
+	background-color: #4352A8;
+	font-family: "Francis One" "Roboto Slab", sans-serif;
+	margin: auto;
+	text-align: center;
+	border-bottom-color: #150D26;
+	border-radius: 45px 45px 45px 45px; 
+	
+}
+
+nav li {
+	display:inline-grid;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+nav li a{
+	display:block;
+	text-align: center;
+	color: #12151E;
+	text-decoration: none;
+}
+
+
